@@ -59,6 +59,7 @@
 
 .nav-dropdown {
     z-index: 100;
+    margin-right: 30px;
 }
 
 .Nav-button {
@@ -299,7 +300,6 @@ svg.side__close__svg {
     color: #fff !important;
 }
 
-/* 
 .asdie-nav__input:focus {
     background: #EF8451;
 }
@@ -330,7 +330,6 @@ svg.side__close__svg {
     right: 20px;
     color: #fff;
 }
- */
 
 @media screen and (max-width: 1200px) {
 
@@ -354,7 +353,7 @@ svg.side__close__svg {
 
 }
 
-/* @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
 
     .side-col {
         padding: 0;
@@ -376,9 +375,9 @@ svg.side__close__svg {
 
 .nav__list-shop {
     margin-left: 100px;
-} */
+} 
 
-/* .nav__shop-button {
+ .nav__shop-button {
     padding-right: 2px !important;
     margin-top: 5px;
     border: 0 !important;
@@ -469,8 +468,7 @@ body[dir="ltr"] .nav__dropdown-list {
     color: rgba(0, 0, 0, 0.55) !important;
 
 }
- */
-/* .nav__item::after {
+ .nav__item::after {
     content: "";
     position: absolute;
     z-index: 100;
@@ -490,7 +488,7 @@ body[dir="ltr"] .nav__dropdown-list {
 .nav__item:hover::after {
     opacity: 1 !important;
 }
- */
+
 a.nav-link {
     color: #fff !important;
 }
