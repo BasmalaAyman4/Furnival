@@ -534,4 +534,10 @@ a.nav-link {
         align-items: center;
         justify-content: stretch; 
     }
+        .navbrand{
+            margin-left:20px;
+        }
+        .l{
+            margin-left: 10px;
+        }
 }
