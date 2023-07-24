@@ -58,7 +58,7 @@ header {
 
 }
 
-@media (min-width: 576px) and (max-width:992px) {
+ @media (min-width: 576px) and (max-width:992px) {
     .navbar-expand-sm .navbar-toggler {
         display: none !important;
     }
@@ -80,13 +80,12 @@ header {
         margin-right: 10% !important;
     }
 }
-
 @media (min-width: 993px) {
     .navbar-nav .nav-link:nth-child(n +8) {
         display: none;
 
     }
-}
+} 
 
 .offcanvas-title {
     font-size: 30px !important;
@@ -97,9 +96,7 @@ header {
     background-color: #E7E7E7 !important;
 }
 
-.navbar-nav {
-    margin-right: 35%;
-}
+
 .logoTitle{
     color: #fff;
     font-family: 'JosefinSans-Regular';

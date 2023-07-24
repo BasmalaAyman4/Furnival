@@ -45,12 +45,19 @@ export default function NavBar() {
                                         </div>
                                         <ul className="nav-side__list pt-3">
                                             <li>
-                                                <Nav.Link href="#action1" className="nav-link" >الرئيسية" </Nav.Link>
+                                                <Nav.Link href="/" className="nav-link" >Home </Nav.Link>
                                             </li>
                                             <li>
+                                                <Nav.Link href="/shop" className="nav-link">Shop</Nav.Link>
                                             </li>
                                             <li>
-                                                <Nav.Link href="#action1" className="nav-link"> المناسبات"</Nav.Link>
+                                                <Nav.Link href="/blog" className="nav-link" >Blog </Nav.Link>
+                                            </li>
+                                            <li>
+                                                <Nav.Link href="/about" className="nav-link">About</Nav.Link>
+                                            </li>
+                                            <li>
+                                                <Nav.Link href="/contact" className="nav-link" >Contact </Nav.Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -58,7 +65,7 @@ export default function NavBar() {
                                     </div>
                                 </div>
                             </div>
-                            <Navbar.Brand to="#" className='navbrand '>
+                            <Navbar.Brand to="/" className={`${styles.navbrand}`}>
                                 <h4 className={`${styles.logoTitle}`}>
                                     <img src={logo} alt='' className={styles.logo} />
                                     Furnival
@@ -79,7 +86,7 @@ export default function NavBar() {
                                     </Nav>
                                 </Offcanvas.Body>
                             </Navbar.Offcanvas >
-                            <Nav.Link href="/login"><Button className={`${styles.loginBtn}`}>Login</Button></Nav.Link>
+                            <Nav.Link href="/login" className={`${styles.l}`}><Button className={`${styles.loginBtn}`}>Login</Button></Nav.Link>
 
                         </Container >
                     </Navbar >
