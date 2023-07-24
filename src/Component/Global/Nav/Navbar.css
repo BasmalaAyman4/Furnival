@@ -531,7 +531,7 @@ a.nav-link {
         flex-wrap: inherit;
         align-items: center;
         justify-content: stretch; 
-        gap: 4%;
+        gap: 3%;
     }
 
 }
