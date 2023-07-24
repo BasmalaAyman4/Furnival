@@ -101,6 +101,7 @@ header {
     color: #fff;
     font-family: 'JosefinSans-Regular';
     font-weight: bold;
+    padding-top: 15px;
 }
 .loginBtn{
             background-color: var(--secondary-color) !important;
@@ -114,4 +115,8 @@ header {
             -moz-border-radius: 17px !important;
             -ms-border-radius: 17px !important;
             -o-border-radius: 17px !important;
+}
+.navbrand{
+    display: flex;
+    align-items: center !important;
 }

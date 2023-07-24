@@ -66,8 +66,9 @@ export default function NavBar() {
                                 </div>
                             </div>
                             <Navbar.Brand to="/" className={`${styles.navbrand}`}>
+                                <img src={logo} alt='' className={styles.logo} />
                                 <h4 className={`${styles.logoTitle}`}>
-                                    <img src={logo} alt='' className={styles.logo} />
+
                                     Furnival
                                 </h4>
                             </Navbar.Brand>
