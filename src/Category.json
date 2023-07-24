@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Bed",
+    "image":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1687562756/categoriesImage/baiek68kb8uaoub9fhjt.jpg",
+    "icon":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1687562757/categoriesIcon/lft1oihe3ccito4dnnrp.png"
+  },
+  {
+    "name": "Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1687562819/categoriesImage/plwsfiglgbsp7fgursdo.jpg",
+    "icon":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1687562820/categoriesIcon/mzhnnbyjra0t5e0lb3un.png"
+  },
+  {
+    "name": "Chair",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1687562906/categoriesImage/pftahjxsotfjjksuy7vd.jpg",
+    "icon":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1687562907/categoriesIcon/wfabit1mnzrba1wcpd20.png"
+  },
+  {
+    "name": "Table",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1687563025/categoriesImage/nwqprhswqw3c9btmrfol.jpg",
+    "icon":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1687563026/categoriesIcon/lg8jsswgsblassq0wnsy.png"
+  },
+  {
+    "name": "Storage",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1687563108/categoriesImage/qogvzkqdsmq0nxk7mnap.jpg",
+    "icon":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1687563109/categoriesIcon/rnzf3gfenl9zcdstezuw.png"
+  }
+]

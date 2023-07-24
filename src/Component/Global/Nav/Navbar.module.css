@@ -1,0 +1,120 @@
+
+.logo {
+    max-width: 70px;
+    max-height: 55px;
+
+}
+
+.navLink__header {
+    display: flex;
+    height: 50px;
+}
+
+header {
+    background-color: #EF8451;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    font-size: 20px;
+}
+
+.header__link {
+    font-family: "Changa-Regular" !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__link:hover {
+    color: #fff !important;
+}
+
+.navLink__title {
+    font-family: "Changa-Regular" !important;
+}
+
+
+@media (max-width:767px) {
+    .header__link:nth-child(-n +4) {
+        display: none;
+    }
+
+    .offcanvas-body {
+        font-size: 20px
+    }
+
+    .navbar-nav {
+        direction: rtl;
+        margin-right: 10% !important;
+    }
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width:992px) {
+    .navbar-expand-sm .navbar-toggler {
+        display: none !important;
+    }
+
+    .navbar-expand-sm .offcanvas {
+        display: none !important;
+    }
+
+    .header__link:nth-child(-n +4) {
+        display: none;
+    }
+
+    .offcanvas-body {
+        font-size: 20px;
+    }
+
+    .navbar-nav {
+        direction: rtl;
+        margin-right: 10% !important;
+    }
+}
+
+@media (min-width: 993px) {
+    .navbar-nav .nav-link:nth-child(n +8) {
+        display: none;
+
+    }
+}
+
+.offcanvas-title {
+    font-size: 30px !important;
+}
+
+.offcanvas-body .navbar-nav .nav-link:hover {
+    color: #EF8451;
+    background-color: #E7E7E7 !important;
+}
+
+.navbar-nav {
+    margin-right: 35%;
+}
+.logoTitle{
+    color: #fff;
+    font-family: 'JosefinSans-Regular';
+    font-weight: bold;
+}
+.loginBtn{
+            background-color: var(--secondary-color) !important;
+            border: var(--secondary-color) !important;
+            color: #fff !important;
+            font-family: 'JosefinSans-Regular' !important;
+            font-weight: bold !important;
+            padding: 8px 35px !important;
+            border-radius: 17px !important;
+            -webkit-border-radius: 17px !important;
+            -moz-border-radius: 17px !important;
+            -ms-border-radius: 17px !important;
+            -o-border-radius: 17px !important;
+}

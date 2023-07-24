@@ -1,0 +1,81 @@
+.selling{
+    margin: 50px 0px;
+}
+.sellingCard{
+        overflow: hidden;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+.allSelling{
+        position: relative;
+        margin-bottom: 50px;
+}
+.selling__title{
+    font-family: 'JosefinSans-Regular' !important;
+    text-align: start;
+    text-transform: capitalize;
+}
+.sellingImg{
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 100%;
+        transition: all 400ms ease-in-out;
+            cursor: pointer;
+}
+.sellingImg:hover{
+        transform: scale(1.07);
+        -webkit-transform: scale(1.07);
+        -moz-transform: scale(1.07);
+        -ms-transform: scale(1.07);
+        -o-transform: scale(1.07);
+        border-radius: 30px !important;
+        -webkit-border-radius: 30px !important;
+        -moz-border-radius: 30px !important;
+        -ms-border-radius: 30px !important;
+        -o-border-radius: 30px !important;
+            cursor: pointer;
+}
+.selling__body{
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 2px 0 12px 0 rgb(0 0 0 / 15%);
+    padding: 15px;
+    min-width: 370px;
+    height: 80px;
+    position: absolute;
+    bottom: -30px;
+    left: 35px;
+    font-family: 'JosefinSans-Regular' !important;
+    cursor: pointer;
+}
+.sellingPrice{
+    display: flex;
+    justify-content: space-between;
+}
+.selling__para{
+        font-family: 'JosefinSans-Regular' !important;
+            text-align: start;
+            font-size: 17px;
+}
+.star{
+    background-color: #8FC83D;
+    padding: 2px 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    height: 30px;
+    color: #fff;
+}
