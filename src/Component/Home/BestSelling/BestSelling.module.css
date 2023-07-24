@@ -51,7 +51,7 @@
     -o-border-radius: 20px;
     box-shadow: 2px 0 12px 0 rgb(0 0 0 / 15%);
     padding: 15px;
-    min-width: 370px;
+    width: 370px;
     height: 80px;
     position: absolute;
     bottom: -30px;
@@ -78,4 +78,9 @@
     -o-border-radius: 50px;
     height: 30px;
     color: #fff;
+}
+@media (max-width:767px) {
+    .selling__body{
+        width: 300px;
+    }
 }
