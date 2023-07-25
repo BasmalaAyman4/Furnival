@@ -22,10 +22,10 @@ padding: 50px 50px 10px;
 .a{
     text-decoration: none;
 }
-li{
+.li{
             transition: all 400ms ease-in-out;
 }
-li:hover{
+.li:hover{
     transform: translateX(10px);
     -webkit-transform: translateX(10px);
     -moz-transform: translateX(10px);

@@ -25,24 +25,24 @@ export default function Footer() {
                             <h5 className={`fw-bold mb-4 ${styles.link}`}>quick links</h5>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>about us</li>
+                                    <li className={`text-reset ${styles.li}`}>about us</li>
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>blogs & articles</li>
+                                    <li className={`text-reset ${styles.li}`}>blogs & articles</li>
 
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>terms & conditions</li>
+                                    <li className={`text-reset ${styles.li}`}>terms & conditions</li>
 
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>privacy policy</li>
+                                    <li className={`text-reset ${styles.li}`}>privacy policy</li>
                                 </a>
                             </p>
                         </MDBCol>
@@ -51,22 +51,22 @@ export default function Footer() {
                             <h5 className={`fw-bold mb-4 ${styles.link}`}>categories</h5>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>sofa</li>
+                                    <li className={`text-reset ${styles.li}`}>sofa</li>
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>chairs</li>
+                                    <li className={`text-reset ${styles.li}`}>chairs</li>
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>tables</li>
+                                    <li className={`text-reset ${styles.li}`}>tables</li>
                                 </a>
                             </p>
                             <p>
                                 <a href='#!' className={`text-reset ${styles.a}`}>
-                                    <li>doors</li>
+                                    <li className={`text-reset ${styles.li}`}>doors</li>
                                 </a>
                             </p>
                         </MDBCol>
