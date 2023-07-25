@@ -4,7 +4,12 @@ import 'swiper/css';
 import styles from './Category.module.css'
 import category from '../../../Category.json'
 import './category.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 export default function Category() {
+    useEffect(() => {
+        Aos.init({ duration: 500 });
+    }, [])
     const [sliderBeg, setSliderBeg] = useState({
         isFirst: true,
         isLast: false,
@@ -25,7 +30,7 @@ export default function Category() {
     }
     return (
         <>
-            <section className={`${styles.wrapper}`}>
+            <section className={`${styles.wrapper}`} data-aos="fade-up">
                 <div className={`container ${styles.swipbtn}`}>
                     <div className={`${styles.flexCol}`}>
                         <h2 className={`${styles.category__title}`}>shop by category</h2>

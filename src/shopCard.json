@@ -1,0 +1,98 @@
+[
+  {
+    "id":"1",
+    "name": "12 Pair Shoe Rack",
+    "image":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1689591643/productsImageCover/hnek4unavgxlnbpwzudv.webp",
+    "price":"8000",
+    "category":"bed",
+    "color":"red"
+  },
+  {
+    "id":"2",
+    "name": "Frink 71 Upholsterea Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689544377/productsImageCover/grmvowp2xuqhwqpspa4i.webp",
+    "price":"28999",
+    "category":"sofa",
+    "color":"yellow"
+  },
+  {
+    "id":"3",
+    "name": "Storage unit",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689584676/productsImageCover/qi0foxftquob1084hqfj.webp",
+    "price":"30000",
+    "category":"chair",
+    "color":"blue"
+  },
+  {
+    "id":"4",
+    "name": "Velvet Sauare Arm Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689544610/productsImageCover/amco5oa3dagyakdrzjhf.webp",
+    "price":"19499",
+    "category":"table",
+    "color":"green"
+  },
+   {
+    "id":"5",
+    "name": "Frink 71 Upholsterea Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689544377/productsImageCover/grmvowp2xuqhwqpspa4i.webp",
+    "price":"28999",
+    "category":"storage",
+    "color":"brown"
+  },
+  {
+    "id":"6",
+    "name": "Storage unit",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689584676/productsImageCover/qi0foxftquob1084hqfj.webp",
+    "price":"30000",
+    "category":"chair",
+    "color":"black"
+  },
+  {
+    "id":"7",
+    "name": "12 Pair Shoe Rack",
+    "image":"https://res.cloudinary.com/dgfe6etuc/image/upload/v1689591643/productsImageCover/hnek4unavgxlnbpwzudv.webp",
+    "price":"8000",
+    "category":"bed",
+    "color":"red"
+  },
+  {
+    "id":"8",
+    "name": "Frink 71 Upholsterea Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689544377/productsImageCover/grmvowp2xuqhwqpspa4i.webp",
+    "price":"28999",
+    "category":"sofa",
+    "color":"yellow"
+  },
+  {
+    "id":"9",
+    "name": "Storage unit",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689584676/productsImageCover/qi0foxftquob1084hqfj.webp",
+    "price":"30000",
+    "category":"chair",
+    "color":"blue"
+  },
+  {
+    "id":"10",
+    "name": "Velvet Sauare Arm Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689544610/productsImageCover/amco5oa3dagyakdrzjhf.webp",
+    "price":"19499",
+    "category":"table",
+    "color":"green"
+  },
+   {
+    "id":"11",
+    "name": "Frink 71 Upholsterea Sofa",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689544377/productsImageCover/grmvowp2xuqhwqpspa4i.webp",
+    "price":"28999",
+    "category":"storage",
+    "color":"brown"
+  },
+  {
+    "id":"12",
+    "name": "Storage unit",
+    "image": "https://res.cloudinary.com/dgfe6etuc/image/upload/v1689584676/productsImageCover/qi0foxftquob1084hqfj.webp",
+    "price":"30000",
+    "category":"chair",
+    "color":"black"
+  }
+]

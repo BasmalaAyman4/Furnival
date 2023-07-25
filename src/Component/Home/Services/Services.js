@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './Services.module.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FiShoppingCart, FiPhoneForwarded, FiGift } from "react-icons/fi";
 import { MdPayment } from "react-icons/md";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import img from '../../../assets/image/services.png'
 export default function Services() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
     return (
         <>
-            <section className=''>
+            <section className='' data-aos="fade-down">
                 <Container>
                     <h2 className={`${styles.service__title}`}>services</h2>
                     <div className={`${styles.service}`}>

@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.pagiBtn{
+  background-color: #fff !important;
+  border: 2px solid var(--primary-color) !important;
+  border-radius: 50px !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  -ms-border-radius: 50px !important;
+  -o-border-radius: 50px !important;
+  color: var(--primary-color) !important;
+  margin-right: 20px !important;
+      font-family: 'JosefinSans-Regular' !important;
+      font-weight: bold !important;
+      width: 40px !important;
+      height: 40px !important;
+      font-size: 20px !important;
+      text-align: center !important;
+}
+.pagiBtn:hover{
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}

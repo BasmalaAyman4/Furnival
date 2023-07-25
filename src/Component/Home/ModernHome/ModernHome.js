@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './ModernHome.module.css'
 import { Container } from 'react-bootstrap'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 export default function ModernHome() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
     return (
         <>
-            <section>
+            <section data-aos="fade-up">
                 <Container>
                     <div>
                         <h2 className={`${styles.modermTitle}`}>modern home idea</h2>
