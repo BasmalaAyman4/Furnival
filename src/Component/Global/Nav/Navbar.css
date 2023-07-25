@@ -514,7 +514,6 @@ a.nav-link {
     color: var(--text-color);
     z-index: 9999;
     letter-spacing: 2px;
-    height: 70px;
 }
 .c {
     color: #fff !important;
