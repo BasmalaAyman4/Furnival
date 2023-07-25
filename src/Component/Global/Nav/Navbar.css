@@ -24,7 +24,7 @@
     height: 5px;
     top: 72px;
     right: 0;
-    background-color: var(--secondary-color) !important;
+    background-color: #EF8451 !important;
     opacity: 0;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .main-nav__link.active {
-    color: var(--secondary-color) !important;
+    color: #EF8451 !important;
 }
 
 .main-nav__link.active::after {
@@ -46,7 +46,7 @@
 }
 
 .main-nav__link a:hover {
-    color: var(--secondary-color) !important;
+    color: #EF8451 !important;
 }
 
 /* .main-nav__link a:focus{
@@ -59,7 +59,6 @@
 
 .nav-dropdown {
     z-index: 100;
-    margin-right: 30px;
 }
 
 .Nav-button {
@@ -300,6 +299,7 @@ svg.side__close__svg {
     color: #fff !important;
 }
 
+/* 
 .asdie-nav__input:focus {
     background: #EF8451;
 }
@@ -330,6 +330,7 @@ svg.side__close__svg {
     right: 20px;
     color: #fff;
 }
+ */
 
 @media screen and (max-width: 1200px) {
 
@@ -377,7 +378,7 @@ svg.side__close__svg {
     margin-left: 100px;
 } 
 
- .nav__shop-button {
+/* .nav__shop-button {
     padding-right: 2px !important;
     margin-top: 5px;
     border: 0 !important;
@@ -468,7 +469,8 @@ body[dir="ltr"] .nav__dropdown-list {
     color: rgba(0, 0, 0, 0.55) !important;
 
 }
- .nav__item::after {
+ */
+/* .nav__item::after {
     content: "";
     position: absolute;
     z-index: 100;
@@ -488,20 +490,20 @@ body[dir="ltr"] .nav__dropdown-list {
 .nav__item:hover::after {
     opacity: 1 !important;
 }
-
+ */
 a.nav-link {
     color: #fff !important;
 }
 .nav {
+
     top: 0;
         position: fixed !important;
         overflow: hidden;
         width: 100%;
-    background-color: transparent;
+        background-color: transparent;
         color: var(--text-color);
         z-index: 9999;
         letter-spacing: 2px;
-        height: 70px;
 
 }
 
@@ -514,12 +516,14 @@ a.nav-link {
     color: var(--text-color);
     z-index: 9999;
     letter-spacing: 2px;
+    height: 70px;
 }
 .c {
     color: #fff !important;
 }
 @media (max-width:767px) {
-.navbar>.container,
+
+    .navbar>.container,
     .navbar>.container-fluid,
     .navbar>.container-lg,
     .navbar>.container-md,
@@ -529,7 +533,7 @@ a.nav-link {
         display: flex;
         flex-wrap: inherit;
         align-items: center;
-        justify-content: stretch; 
+        justify-content: stretch;
         gap: 3%;
     }
 

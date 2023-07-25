@@ -38,7 +38,7 @@ header {
     font-family: "Changa-Regular" !important;
 }
 
-
+/* 
 @media (max-width:767px) {
     .header__link:nth-child(-n +4) {
         display: none;
@@ -56,9 +56,9 @@ header {
 
 
 
-}
+} */
 
- @media (min-width: 576px) and (max-width:992px) {
+/* @media (min-width: 576px) and (max-width:992px) {
     .navbar-expand-sm .navbar-toggler {
         display: none !important;
     }
@@ -80,13 +80,14 @@ header {
         margin-right: 10% !important;
     }
 }
+
 @media (min-width: 993px) {
     .navbar-nav .nav-link:nth-child(n +8) {
         display: none;
 
     }
-} 
-
+}
+ */
 .offcanvas-title {
     font-size: 30px !important;
 }
@@ -101,7 +102,7 @@ header {
     color: #fff;
     font-family: 'JosefinSans-Regular';
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .loginBtn{
             background-color: var(--secondary-color) !important;
@@ -119,4 +120,50 @@ header {
 .navbrand{
     display: flex;
     align-items: center !important;
+}
+
+.nav {
+    top: 0;
+    position: fixed !important;
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent;
+    z-index: 9999;
+    letter-spacing: 2px;
+
+
+}
+
+.navBackground {
+    top: 0;
+    position: fixed !important;
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    z-index: 9999;
+    letter-spacing: 2px;
+    height: 70px;
+}
+
+.c {
+    color: #fff !important;
+}
+
+@media (max-width:767px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: stretch;
+        gap: 3%;
+    }
+
 }
