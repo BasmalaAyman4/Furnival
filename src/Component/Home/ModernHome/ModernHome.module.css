@@ -96,3 +96,9 @@ opacity: 1;
     text-transform: capitalize;
 
 }
+@media (max-width:767px) {
+    .modern__body{
+        display: none;
+    }
+    
+}

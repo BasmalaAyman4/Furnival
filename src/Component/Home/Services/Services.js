@@ -8,11 +8,13 @@ import img from '../../../assets/image/services.png'
 export default function Services() {
     return (
         <>
-            <section className='mb-5'>
+            <section className=''>
                 <Container>
                     <h2 className={`${styles.service__title}`}>services</h2>
                     <div className={`${styles.service}`}>
+
                         <Row className={`${styles.s}`}>
+
                             <Col className={`${styles.services__body}`}>
                                 <FiShoppingCart className={`${styles.icon}`} />
                                 <h2 className={`${styles.body__title}`}>fast shipping</h2>

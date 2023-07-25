@@ -24,7 +24,7 @@
     height: 5px;
     top: 72px;
     right: 0;
-    background-color: #EF8451 !important;
+    background-color: var(--secondary-color) !important;
     opacity: 0;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .main-nav__link.active {
-    color: #EF8451 !important;
+    color: var(--secondary-color) !important;
 }
 
 .main-nav__link.active::after {
@@ -46,7 +46,7 @@
 }
 
 .main-nav__link a:hover {
-    color: #EF8451 !important;
+    color: var(--secondary-color) !important;
 }
 
 /* .main-nav__link a:focus{
