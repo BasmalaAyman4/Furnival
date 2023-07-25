@@ -11,7 +11,10 @@ import x from "../../../assets/icons/x.svg"
 import logo from "../../../assets/image/logo.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Navbar.css"
+import { Link, NavLink, useLocation } from 'react-router-dom';
 export default function NavBar() {
+    const location = useLocation()
+
     const toggleNav = useRef();
     const [NavbarSide, setNavbarSide] = useState(false)
     const [navBg, setNavBg] = useState(false);
@@ -45,19 +48,19 @@ export default function NavBar() {
                                         </div>
                                         <ul className="nav-side__list pt-3">
                                             <li>
-                                                <Nav.Link href="/" className="nav-link" >Home </Nav.Link>
+                                                <NavLink to="/" className="nav-link" >Home </NavLink>
                                             </li>
                                             <li>
-                                                <Nav.Link href="/shop" className="nav-link">Shop</Nav.Link>
+                                                <NavLink to="/shop" className="nav-link">Shop</NavLink>
                                             </li>
                                             <li>
-                                                <Nav.Link href="/blog" className="nav-link" >Blog </Nav.Link>
+                                                <NavLink to="/blog" className="nav-link" >Blog </NavLink>
                                             </li>
                                             <li>
-                                                <Nav.Link href="/about" className="nav-link">About</Nav.Link>
+                                                <NavLink to="/about" className="nav-link">About</NavLink>
                                             </li>
                                             <li>
-                                                <Nav.Link href="/contact" className="nav-link" >Contact </Nav.Link>
+                                                <NavLink to="/contact" className="nav-link" >Contact </NavLink>
                                             </li>
                                         </ul>
                                     </div>
@@ -79,15 +82,15 @@ export default function NavBar() {
                             >
                                 <Offcanvas.Body>
                                     <Nav className={`justify-content-center flex-grow-1 p-2 ${styles.nav__dir} `} >
-                                        <Nav.Link href="/" className={`${styles["main-nav__link"]} main-nav__link c`}>Home</Nav.Link>
-                                        <Nav.Link href="/shop" className={`${styles["main-nav__link"]} main-nav__link`}>Shop</Nav.Link>
-                                        <Nav.Link href="/blog" className={`${styles["main-nav__link"]} main-nav__link`}>Blog</Nav.Link>
-                                        <Nav.Link href="/about" className={`${styles["main-nav__link"]} main-nav__link`}>About</Nav.Link>
-                                        <Nav.Link href="/contact" className={`${styles["main-nav__link"]} main-nav__link`}>Contact</Nav.Link>
+                                        <NavLink to="/" className={`${styles["main-nav__link"]} main-nav__link c`}>Home</NavLink>
+                                        <NavLink to="/shop" className={`${styles["main-nav__link"]} main-nav__link`}>Shop</NavLink>
+                                        <NavLink to="/blog" className={`${styles["main-nav__link"]} main-nav__link`}>Blog</NavLink>
+                                        <NavLink to="/about" className={`${styles["main-nav__link"]} main-nav__link`}>About</NavLink>
+                                        <NavLink to="/contact" className={`${styles["main-nav__link"]} main-nav__link`}>Contact</NavLink>
                                     </Nav>
                                 </Offcanvas.Body>
                             </Navbar.Offcanvas >
-                            <Nav.Link href="/login" className={`${styles.l}`}><Button className={`${styles.loginBtn}`}>Login</Button></Nav.Link>
+                            <Button to="/login" className={`${styles.loginBtn}`}>Login</Button>
 
                         </Container >
                     </Navbar >

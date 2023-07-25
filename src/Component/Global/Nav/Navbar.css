@@ -533,12 +533,6 @@ a.nav-link {
         flex-wrap: inherit;
         align-items: center;
         justify-content: stretch; 
-        gap: 3%;
+        gap: 5%;
     }
-        .navbrand{
-            margin-left:20px;
-        }
-        .l{
-            margin-left: 10px;
-        }
 }
