@@ -45,3 +45,8 @@ font-weight: bold;
 .shope{
     color: gray;
 }
+@media (max-width:767px) {
+    .shop__body{
+        left: 30%;
+    }
+}
