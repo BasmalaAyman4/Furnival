@@ -331,7 +331,7 @@ svg.side__close__svg {
     color: #fff;
 }
  */
-
+/*
 @media screen and (max-width: 1200px) {
 
 
@@ -376,7 +376,7 @@ svg.side__close__svg {
 
 .nav__list-shop {
     margin-left: 100px;
-} 
+} */
 
 /* .nav__shop-button {
     padding-right: 2px !important;
@@ -522,8 +522,7 @@ a.nav-link {
     color: #fff !important;
 }
 @media (max-width:767px) {
-
-    .navbar>.container,
+.navbar>.container,
     .navbar>.container-fluid,
     .navbar>.container-lg,
     .navbar>.container-md,
@@ -533,8 +532,12 @@ a.nav-link {
         display: flex;
         flex-wrap: inherit;
         align-items: center;
-        justify-content: stretch;
-        gap: 3%;
+        justify-content: stretch; 
     }
-
+        .navbrand{
+            margin-left:20px;
+        }
+        .l{
+            margin-left: 10px;
+        }
 }
