@@ -14,7 +14,9 @@ import "./Navbar.css"
 import { Link, NavLink, useLocation } from 'react-router-dom';
 export default function NavBar() {
     const location = useLocation()
-
+    useEffect(() => {
+        setNavbarSide(false)
+    }, [location])
     const toggleNav = useRef();
     const [NavbarSide, setNavbarSide] = useState(false)
     const [navBg, setNavBg] = useState(false);
