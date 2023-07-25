@@ -493,15 +493,15 @@ a.nav-link {
     color: #fff !important;
 }
 .nav {
-
     top: 0;
         position: fixed !important;
         overflow: hidden;
         width: 100%;
-        background-color: transparent;
+    background-color: transparent;
         color: var(--text-color);
         z-index: 9999;
         letter-spacing: 2px;
+        height: 70px;
 
 }
 
