@@ -58,3 +58,10 @@
   background-color: var(--primary-color) !important;
   color: #fff !important;
 }
+
+@media (max-width:1200px) {
+  .modal-dialog {
+      margin-top: 20% !important;
+      height: 700px !important;
+    }
+}

@@ -119,3 +119,30 @@ font-weight: bold;
     display: flex;
     justify-content: space-around;
 }
+.btnModel{
+    font-family: 'JosefinSans-Regular';
+    text-transform: capitalize;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: 1px solid var(--secondary-color);
+    display: none;
+}
+.btnModel:hover{
+    background-color: var(--secondary-color);
+        color: #fff;
+        border: 1px solid var(--secondary-color);
+}
+@media (max-width:1200px) {
+.btnModel{
+    display: block;
+    margin: auto;
+        margin-bottom: 50px;
+}
+.shopFilter{
+    display: none;
+}
+.shopCards{
+    margin: auto;
+    width: 100%;
+}
+}
