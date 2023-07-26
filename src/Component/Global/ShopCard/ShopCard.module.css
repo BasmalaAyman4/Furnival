@@ -92,6 +92,11 @@
     background-color: #fff;
     color: var(--primary-color);
 }
+@media (max-width:429px) {
+    .selling__body {
+        width: 337px;
+    }
+}
 @media (min-width:430px) and (max-width:499px) {
     .selling__body {
         width: 380px;
