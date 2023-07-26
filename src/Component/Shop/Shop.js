@@ -126,8 +126,8 @@ export default function Shop() {
                                     </div>
                                 </div>
                             </Col>
-                            <Button variant="secondary" onClick={handleClose}>
-                                Close
+                            <Button variant="secondary" onClick={handleClose} className={`${styles.closModel}`}>
+                                Apply
                             </Button>
                         </Modal.Body>
 

@@ -127,6 +127,13 @@ font-weight: bold;
     border: 1px solid var(--secondary-color);
     display: none;
 }
+.closModel{
+    font-family: 'JosefinSans-Regular';
+        text-transform: capitalize;
+        background-color: var(--secondary-color);
+        color: #fff;
+        border: 1px solid var(--secondary-color);
+}
 .btnModel:hover{
     background-color: var(--secondary-color);
         color: #fff;
