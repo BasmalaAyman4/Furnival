@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import styles from './Blogs.module.css'
 import img from '../../assets/image/blogs.png'
@@ -6,7 +6,12 @@ import { AiFillHome } from "react-icons/ai";
 import { Container, Col, Row, Button } from 'react-bootstrap';
 import { BsFillCalendarDayFill } from "react-icons/bs";
 import { BiCommentDetail } from "react-icons/bi";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 export default function Blogs() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
     return (
         <>
             <section>
@@ -21,7 +26,7 @@ export default function Blogs() {
                     </div>
                 </div>
                 <Container>
-                    <Row>
+                    <Row data-aos="fade-up">
                         <Col md="6">
                             <div className={`${styles.card}`}>
                                 <div className={`${styles.card__image}`}>

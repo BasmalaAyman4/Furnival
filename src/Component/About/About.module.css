@@ -1,0 +1,113 @@
+.shopImg {
+    position: relative;
+}
+
+.bulr {
+    width: 100%;
+    height: 500px;
+}
+
+.shopImg::after {
+    top: 0;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat-y;
+    background-position: center;
+    background-color: #4b55634d !important;
+}
+
+.shop__body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 2;
+}
+
+.shop__title,
+.shop__bread {
+    font-family: 'JosefinSans-Regular' !important;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.home {
+    color: #fff !important;
+}
+
+.homeI {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.shope {
+    color: gray;
+}
+.vector{
+    width: 60%;
+}
+.about__body{
+    margin-top: 70px;
+        font-family: 'JosefinSans-Regular' !important;
+        align-items: center;
+        margin-bottom: 70px;
+
+}
+.desc{
+    text-align: start;
+    text-transform: capitalize;
+}
+.about__title,
+.teams__title{
+    color: var(--primary-color);
+}
+.about__para,
+.teams__para{
+    color: #777;
+}
+.about__more{
+font-family: 'JosefinSans-Regular' !important;
+    text-transform: capitalize;
+font-weight: bold;
+margin-bottom: 50px;
+}
+.about__details{
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 0 12px 0 rgb(0 0 0 / 15%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 70px;
+}
+.details__body{
+    padding: 0 !important;
+}
+.teamsImg{
+    object-fit: cover;
+width: 100%;
+    display: block;
+    vertical-align: middle;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.teams__body{
+text-align: start;
+    margin: auto;
+    padding-left: 50px;
+    font-family: 'JosefinSans-Regular' !important;
+        text-transform: capitalize;
+}
